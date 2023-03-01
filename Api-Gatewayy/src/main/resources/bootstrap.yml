@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    config:
+      enabled: true
+      uri: http://localhost:9010
+      #uri: http://172.17.0.2:9010
+      #change config repo ip add to 172 mashin else
+      #u have to specify if u can work with another deploying tuto
+      #communication is working
